@@ -112,7 +112,7 @@ namespace WebCrawler
                         if (l.Titulo == aux2) existeLivro = true;
                     }
 
-                    if (existeLivro == false)
+                    if (existeLivro == false) // quando rodar novamente não salvar os mesmos livros
                     {
 
                         var livro = new Livro();
@@ -128,7 +128,7 @@ namespace WebCrawler
 
                         livro.Titulo = getTitulo(info);
 
-                        if (existeAutor == false)
+                        if (existeAutor == false) // nao salvar o mesmo autor várias vezes
                         {
                             Autor a = new Autor { Nome = getAutor(info) };
                             context.Autores.Add(a);
