@@ -41,7 +41,7 @@ namespace WebCrawler
 
             for (int i = 0; i < info.Length; i++)
             {
-                if (info[i] == ';') count++; //para checar subtitulo
+                if (info[i] == ';') count++; 
             }
 
                 for (int i=0; i<info.Length; i++)
@@ -104,32 +104,42 @@ namespace WebCrawler
                 {
                     string info = li.Descendants("h3").FirstOrDefault().InnerText;
                     string aux = getAutor(info);
-                    bool existe = false;
+                    string aux2 = getTitulo(info);
+                    bool existeAutor = false, existeLivro = false;
 
-                    var livro = new Livro();
-    
-                    foreach( var autor in context.Autores)
+                    foreach (var l in context.Livros)
                     {
-                        if(autor.Nome == aux)
-                        {
-                            livro.Autor = autor;
-                            existe = true;
-                        }
+                        if (l.Titulo == aux2) existeLivro = true;
                     }
 
-                    livro.Titulo = getTitulo(info);
-
-                    if(existe == false)
+                    if (existeLivro == false)
                     {
-                        Autor a = new Autor { Nome = getAutor(info) };
-                        context.Autores.Add(a);
-                        livro.Autor = a;
-                    }                  
 
-                    context.Livros.Add(livro);
-                    
-                    context.SaveChanges();
+                        var livro = new Livro();
 
+                        foreach (var autor in context.Autores)
+                        {
+                            if (autor.Nome == aux)
+                            {
+                                livro.Autor = autor;
+                                existeAutor = true;
+                            }
+                        }
+
+                        livro.Titulo = getTitulo(info);
+
+                        if (existeAutor == false)
+                        {
+                            Autor a = new Autor { Nome = getAutor(info) };
+                            context.Autores.Add(a);
+                            livro.Autor = a;
+                        }
+
+                        context.Livros.Add(livro);
+
+                        context.SaveChanges();
+
+                    }
                 }
 
             }
