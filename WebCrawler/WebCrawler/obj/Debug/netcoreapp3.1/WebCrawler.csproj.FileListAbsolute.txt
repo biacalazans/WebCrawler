@@ -44,3 +44,14 @@ C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\De
 C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.deps.json
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.runtimeconfig.json
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.runtimeconfig.dev.json
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.dll
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.pdb
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.dll
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.pdb
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.genruntimeconfig.cache
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\beatr\OneDrive\Documents\GitHub\WebCrawler\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.csproj.CoreCompileInputs.cache
